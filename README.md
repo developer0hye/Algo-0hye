@@ -7,7 +7,14 @@
 
 ## 나와의 약속
 
-아무리 바빠도 2주안에 한 문제는 꼭 풀기
+아무리 바빠도 2주에 한 문제는 꼭 풀기
+
+## 알고리즘 문제를 푸는 자세(=인생을 대하는 자세)
+
+성공으로 가는 길은 실패의 연속
+
+<img src="./figures/fail2Success.jpg" width="40%">
+<img src="./figures/fail2Success_boj.PNG" width="80%">
 
 ## 팁
 런타임 에러가 발생하는 경우 [참고 링크](https://www.acmicpc.net/board/view/22980)
