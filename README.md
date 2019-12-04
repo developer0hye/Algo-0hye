@@ -34,6 +34,8 @@ cout 사용할 때, 줄 넘김을 해야하는 경우 'endl' 보다 '\n' 을 사
 
 [알고리즘 문제풀이(PS) 시작하기](https://plzrun.tistory.com/entry/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4PS-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0)
 
+[알고리즘 공부, 어떻게 해야하나요?](https://baactree.tistory.com/52)
+
 ### 기록
 
 **10분 안에 푼 문제는 기록하지 않음**
