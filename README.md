@@ -40,6 +40,10 @@ cout 사용할 때, 줄 넘김을 해야하는 경우 'endl' 보다 '\n' 을 사
 
 [알고리즘 공부, 어떻게 해야하나요?](https://baactree.tistory.com/52)
 
+## 공부자료
+
+[21강 - 다이나믹 프로그래밍(Dynamic Programming) [ 실전 알고리즘 강좌(Algorithm Programming Tutorial) #21 ]](https://www.youtube.com/watch?v=FmXZG7D8nS4)
+
 ### 기록
 
 **10분 안에 푼 문제는 기록하지 않음**
