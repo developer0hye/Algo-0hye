@@ -8,6 +8,7 @@
 
 그 과정은 아래의 그림과 같다.
 
+<img src="./1932.jpg" width="80%">
 
 ```cpp
 if (j == 0) temp = dp_sum[i-1][0];
