@@ -23,7 +23,7 @@ int main()
         
         if(pos==K) break;
 
-        for(int new_pos:{pos-1, pos+1, pos*2}) // 0 2 2
+        for(int new_pos:{pos-1, pos+1, pos*2})
         {
             if(new_pos < 0 || new_pos > 1e5) continue;
             
