@@ -5,7 +5,7 @@
 
 ~~2019년 12월 내로 학교 랭킹 100위권 찍기.~~ 2019.12.18 목표 달성
 
-<img src="./figures/rank100.PNG" width="40%">
+<img src="./figures/rank100.PNG" width="80%">
 
 2020년 3월 내로 학교 랭킹 50위권 찍기
 
