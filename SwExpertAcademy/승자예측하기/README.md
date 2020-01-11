@@ -48,3 +48,7 @@ Turn 3 에서 Alice 는 [8, 15] 의 숫자를 외칠 수 있다.
 **Rule 3 과 Rule 4 는 Alice의 차례에서 N 을 외칠 수 있는 경우 무조건 적용된다.**
 
 <img src="./fig5.JPG" width="80%">
+
+## 고찰
+
+cin, cout 을 썼더니 시간초과가 떠서 트라이를 
