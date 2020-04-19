@@ -9,12 +9,11 @@ vector<vector<int>> initial_map;
 vector<vector<bool>> initial_visited_map;
 vector<pair<int, int>> wall_position_candidates; //(y, x)
 queue<pair<int, int>> initial_virus_position; //(y, x)
-vector<bool> built;
 
 pair<int, int> built_walls[3];
 int max_safe_area_size = 0;
 
-void dfs_build_wall(int built_wall_number)
+void dfs_build_wall(int search_idx, int built_wall_number)
 {
     if(built_wall_number == 3)
     {
@@ -83,21 +82,16 @@ void dfs_build_wall(int built_wall_number)
         return;
     }
 
-    for(int i = 0; i < wall_position_candidates.size(); i++)
+    for(int i = search_idx; i < wall_position_candidates.size(); i++)
     {
-        if(built[i] == false)
-        {
-            built[i] = true;
-            built_walls[built_wall_number] = wall_position_candidates[i];
-            dfs_build_wall(built_wall_number+1);
-            built[i] = false;
-        }
+        built_walls[built_wall_number] = wall_position_candidates[i];
+        dfs_build_wall(i+1, built_wall_number+1);
     }
 }
 
 int get_max_safe_area_size()
 {
-    dfs_build_wall(0);
+    dfs_build_wall(0, 0);
     return max_safe_area_size;
 }
 
@@ -116,8 +110,6 @@ int main()
             else if(initial_map[n][m] == 2) initial_virus_position.push({n, m});
         }
 
-    built = vector<bool>(wall_position_candidates.size(), false);
-    
     cout << get_max_safe_area_size();
     return 0;
 }
